@@ -6,7 +6,7 @@ for i in range(8):
     OTP+=digits[math.floor(random.random()*62)]
 otp = OTP + " is your OTP to verify your identity"
 msg= otp
-print(msg)
+#print(msg)
 
 
 # Your Account SID from twilio.com/console
